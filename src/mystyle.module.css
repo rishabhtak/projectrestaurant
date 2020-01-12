@@ -1,0 +1,100 @@
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 120px;
+  
+}
+
+ .space {
+	margin-left:100px;
+	padding-left:10px;
+	}
+
+
+	.featurestext {
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-left:100px;
+	padding-top:15px;
+	}
+	
+   .facilities {
+      background-color:#1E73BE;
+      max-width:80%;
+      height:150px;
+      margin:auto;
+}
+
+   .clmn {
+	color:white;
+	column-count:3;
+	max-width:90%;
+      	height:auto;
+      	margin:auto;
+	
+}
+
+    .zoom {
+	max-width:60%;
+        display:block;
+        margin:auto;
+}
+
+
+
+.inputbox {
+  width: 30%;
+  padding: 12px 20px;
+  margin: auto;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  display:block;
+  background-color:#6C6C6C;
+  color:white;
+}
+
+::placeholder {
+color:white;
+}
+
+.btn {
+  background-color: #4a7fe0;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer; 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.colContainer {
+  display: flex;
+  max-width: 100%;
+}
+.col {
+  flex: 1;
+  padding: 16px;
+  color:white;
+  margin-left:50px;
+ 
+ 
+}
+
+
+@media only screen and (max-width: 600px) {
+  .colContainer { 
+   display:block;
+    width: 100%;
+    
+    
+  }
+
+}
